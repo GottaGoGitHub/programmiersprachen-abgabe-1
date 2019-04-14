@@ -1,0 +1,31 @@
+Schluesselwoerter:
+
+C++ ist eine Programmiersprache, die als erweiterung von C entwickelt wurde. Sie ist effizient und maschienennah und bietet ein hohes Abstraktionsniveau.
+Quellcode ist eine in einer Programmiersprache verfasste Programmanweisung (anweisungen), die vom Menschen gelesen werden können, aber Maschienen erst mit einem Compiler übersetzen müssen.
+Compiler übersetzt Quellcode für Maschienen, um diesen vom Computer ausführbar zu machen.
+Linker 
+Objektcode
+Ausführbare Datei
+main()
+#include
+Kommentar
+Header
+Programm
+Ausgabe
+std::cout
+std::cin
+<<
+>>
+Funktion
+Funktionssignatur
+Deklaration
+Definition
+Typ
+Typkonvertierung
+Variable
+Name
+Wert
+Initialisierung
+Zuweisung
+const
+Gültigkeitsbereich

@@ -1,0 +1,34 @@
+gegebener quellcode:
+
+int main(){
+    int a = 9;
+    bool b = false;
+    char c = 'a';
+    double d = 1.3;
+    int const five = 5;
+    double e = a/five;
+
+    five = d;
+
+    return 0;
+}
+
+folgendes ist in der Reihenfolge von oben nach unten;
+
+alle Typen:
+int, bool, char, double, int const, double
+
+alle Variablen:
+a, b, c, d, five, e, five
+
+alle Werte:
+9, false, 'a', 1.3, 5, a/five, d
+
+Eine Variable, die mit const initialisiert wurde kann nicht mehr verändert werden.
+
+Eine Typkonvertierung waere hier five = d. 
+d ist eigentlich als double 1.3 initialisiert und five (ein int const) kann keine double-Wert
+darstellen. Da five ein int ist, wird der fliesskommawert abgerundet auf 1. 
+Dabei gehen manchmal informationen verloren, worauf man bei bestimmten Berechnungen achten sollte.
+
+Ein Problem am Quellcode ist, das five gar nicht neu zugewiesen werden kann, da es sich um ein Konstanten int Wert handelt, der nicht verändert werden kann.
