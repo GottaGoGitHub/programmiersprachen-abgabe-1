@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++11  -rdynamic CMakeFiles/test-1-7.dir/test-1-7.cpp.o  -o test-1-7 

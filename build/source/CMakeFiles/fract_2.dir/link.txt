@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++11  -rdynamic CMakeFiles/fract_2.dir/fract_2.cpp.o  -o fract_2 
