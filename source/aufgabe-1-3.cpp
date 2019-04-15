@@ -1,4 +1,4 @@
-// C++ program to find LCM of n elements 
+
 #include <bits/stdc++.h> 
 using namespace std; 
 
